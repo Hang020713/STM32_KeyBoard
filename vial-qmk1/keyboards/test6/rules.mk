@@ -1,0 +1,15 @@
+# This file intentionally left blank
+OPT_DEFS += -DBOOTLOADER_STM32DUINO
+MCU_LDSCRIPT = STM32F103x8_stm32duino
+BOOTLOADER_TYPE = stm32duino
+DFU_ARGS = -d 1EAF:0003 -a 2 -R
+DFU_SUFFIX_ARGS = -v 1EAF -p 0003
+
+OLED_ENABLE = yes
+
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_INSECURE = yes
+
+# SPLIT_KEYBOARD = yes
+# SERIAL_DRIVER = usart

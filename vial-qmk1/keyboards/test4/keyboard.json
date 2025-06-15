@@ -1,0 +1,25 @@
+{
+    "manufacturer": "B",
+    "keyboard_name": "test3",
+    "maintainer": "B",
+    "development_board": "bluepill",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x9291",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "K000", "matrix": [0, 0], "x": 0, "y": 0 },
+                { "label": "K001", "matrix": [0, 1], "x": 1, "y": 0 }
+            ]
+        }
+    }
+}
